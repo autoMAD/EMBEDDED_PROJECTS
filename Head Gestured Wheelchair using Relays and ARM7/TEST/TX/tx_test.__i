@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" -o "tx_test.o" --omf_browse "tx_test.crf" --depend "tx_test.d" "TX_TEST.c"

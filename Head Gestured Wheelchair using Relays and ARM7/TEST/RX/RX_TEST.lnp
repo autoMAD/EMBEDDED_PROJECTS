@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "rx_test.o" --strict --scatter "RX_TEST.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RX_TEST.map" -o "RX_TEST.axf"

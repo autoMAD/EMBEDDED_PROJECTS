@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'RX_TEST.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"rx_test.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "rx_test.o" --strict --scatter "RX_TEST.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RX_TEST.map" -o "RX_TEST.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RX_TEST.axf'
+### ADS-LD Command File: 'RX_TEST.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RX_TEST.lnp', Handle=0x0000049C
+### Writing '.lnp' file
+### ADS-LD Command file 'RX_TEST.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
